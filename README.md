@@ -14,6 +14,11 @@ vhost [OPTIONS] <name>
 ```
 
 #Usage
+First, make the script executable
+```
+sudo chmod a+x
+```
+Then, see below
 
 ```
 vhost laravel.loc				creates laravel.loc vhost: folder; /etc/hosts entry; sites-available & sites-enabled entry
