@@ -109,7 +109,8 @@ sudo cp /etc/apache2/sites-available/000-default.conf "/etc/apache2/sites-availa
  
 sudo sh -c "echo '<VirtualHost *:80>
         DocumentRoot /home/rawan/public_html/${servername}/${publicdir}
-        ServerName www.${servername}.loc
+        ServerName ${servername}
+        ServerAlias www.${servername}
         <Directory /home/rawan/public_html/${servername}/${publicdir}>
                 Options +Indexes +FollowSymLinks +MultiViews +Includes
                 AllowOverride All
