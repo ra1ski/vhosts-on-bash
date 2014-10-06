@@ -85,7 +85,7 @@ esac
  
 # Change to whatever Dir you want
 dir='/home/rawan/public_html/'  
-publicdir='www'
+publicdir='/www'
 
 # set servername
 servername=$1 
